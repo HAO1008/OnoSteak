@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #222;
+  color: aliceblue;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  transition: .5s;
+}
+a:hover{
+  color: #777;
+}
+navbar{
+  z-index: 999;
+  width: 100%;
+}
+
+
+/* card-img start */
+.card-img{
+  height: 300px;
+  transition: .5s;
+  cursor: pointer;
+}
+.card-img h2{
+  background-color: rgba(255, 255, 255, 0.329);
+  transition: .3s;
+}
+.card-img:nth-child(1){
+  background: url(./img/card01.jfif) center/cover;
+}
+.card-img:nth-child(1):hover{
+  background: url(./img/card01.jfif) center/contain rgba(0, 0, 0, 0.329);
+  background-blend-mode: color;
+}
+.card-img:nth-child(1):hover h2{
+  background-color:rgba(255, 255, 255, 0.534) ;
+}
+.card-img:nth-child(2){
+  background: url(./img/card02.jpg) center/cover;
+}
+.card-img:nth-child(2):hover{
+  background: url(./img/card02.jpg) center/contain rgba(0, 0, 0, 0.329);
+  background-blend-mode: color;
+}
+.card-img:nth-child(2):hover h2{
+  background-color:rgba(255, 255, 255, 0.534) ;
+}
+.card-img:nth-child(3){
+  background: url(./img/card03.jfif) center/cover;
+}
+.card-img:nth-child(3):hover{
+  background: url(./img/card03.jfif) center/contain rgba(0, 0, 0, 0.329);
+  background-blend-mode: color;
+}
+.card-img:nth-child(3):hover h2{
+  background-color:rgba(255, 255, 255, 0.534) ;
+}
+/* card-img end */
+
+tittle  h1{
+  letter-spacing: 8px;
+}
+
+offer .offer img{
+  height: 450px;
+}
+
+message{
+  background: url(./img/content.jfif) center/cover rgba(34, 34, 34, 0.719);
+  background-blend-mode: color;
+  height: 40vh;
+}
+
+
+/* menu */
+.list-group .active{
+  background-color: #333;
+  border: none;
+}
+.list-group a{
+  background-color: #777;
+  color: #fff;
+}
+
+.card{
+  background-color: #333;
+  padding: 3%;
+}
+.card .btn{
+  background-color: rgb(163, 125, 53);
+  border: none;
+}
+
+.pagination .page-item a{
+  background-color: #777;
+  color: #fff;
+  border: #222 1.5px solid;
+}
+
+/* contact */
+.ipt input{
+  width: 250px;
+  padding: 5px;
+  background-color: transparent;
+  outline: none;
+  border: #777 solid 1px;
+  color: #fff;
+}
+.ipt input::placeholder{
+  color: #777;
+}
+.ipt button{
+  background-color: #fff;
+  color: #777;
+  padding: 5px;
+  border: #fff solid 1px;
+}
+
+/* map */
+#map {
+  height: 50vh;
+}
+/* footer */
+footer .fab{
+  font-size: 3rem;
+  color: #fff;
+}
